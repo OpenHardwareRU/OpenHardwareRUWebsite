@@ -19,3 +19,9 @@ def about(request):
 
 def shop(request):
     return render(request, 'homepage/shop.html')
+
+def privacy(request):
+    return render(request, 'homepage/privacy.html')
+
+def terms(request):
+    return render(request, 'homepage/terms.html')
